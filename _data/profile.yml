@@ -32,14 +32,14 @@ links:
     url: ""
   - label: BaoHope Foundation
     icon: fa-solid fa-ribbon
-    url: ""
+    url: "https://www.linkedin.com/company/baohope"
 
 interests:
   - Digital health equity
-  - Cancer symptom management
   - Nursing informatics
   - Global health equity
   - Participatory and mixed methods
+  - Cancer symptom management
 
 # Shown in the right sidebar under "Currently"
 currently:
