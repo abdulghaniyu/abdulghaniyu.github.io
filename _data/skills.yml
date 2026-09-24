@@ -1,0 +1,34 @@
+# Research and technical skills on the About page.
+# icon: any Font Awesome 6 icon class (browse at https://fontawesome.com/icons)
+- group: Research methods
+  items:
+    - name: Quantitative analysis
+      icon: fa-solid fa-chart-line
+    - name: Qualitative analysis
+      icon: fa-solid fa-comments
+    - name: Mixed methods
+      icon: fa-solid fa-layer-group
+    - name: Systematic and scoping reviews
+      icon: fa-solid fa-magnifying-glass
+    - name: Concept analysis
+      icon: fa-solid fa-lightbulb
+    - name: Participatory and community-based research
+      icon: fa-solid fa-people-group
+- group: Data analysis
+  items:
+    - name: Stata
+      icon: fa-solid fa-chart-column
+    - name: R
+      icon: fa-brands fa-r-project
+    - name: SPSS
+      icon: fa-solid fa-table
+    - name: Microsoft Office
+      icon: fa-brands fa-microsoft
+- group: Web and digital
+  items:
+    - name: HTML
+      icon: fa-brands fa-html5
+    - name: CSS
+      icon: fa-brands fa-css3-alt
+    - name: GitHub and Jekyll
+      icon: fa-brands fa-github
