@@ -1,0 +1,11 @@
+{% assign b = include.pub %}
+<li class="pub">
+  <span class="pub-authors">{{ b.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+  {% if b.year %}({{ b.year }}).{% endif %}
+  <span class="pub-title">{{ b.title }}.</span>
+  <em>{{ b.venue }}</em>.
+  {% if b.section == "Under review" %}<span class="pill">Under review</span>{% endif %}
+  {% if b.links.size > 0 %}
+  <span class="pub-links">{% for l in b.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</span>
+  {% endif %}
+</li>

@@ -1,0 +1,38 @@
+# section must be one of: Journal articles, Under review, Protocols and other works
+# Put ** around your own name to bold it. Newest first.
+- section: Journal articles
+  authors: "Kantabanlang, Y., Ren, S., Hwang, M., Yang, R., **Alidu, A.-G.**, & Jiang, Y."
+  year: 2026
+  title: "Digital divide among U.S. adults with and without cancer: Prevalence and associated factors"
+  venue: Journal of Cancer Education
+  links:
+    - label: DOI
+      url: "https://doi.org/10.1007/s13187-026-02979-x"
+- section: Under review
+  authors: "**Alidu, A.-G.**, Antonio, M., & Jiang, Y."
+  title: Integrated digital health equity framework for practice, research, and policy
+  venue: Journal of the American Medical Informatics Association
+- section: Under review
+  authors: "**Alidu, A.-G.**, Sani, A. R. M., Saani, M., & Abubakari, A."
+  title: "Knowledge of cervical cancer and associated factors among women of reproductive age (18–49 years) in Dungu, Tamale: A cross-sectional study"
+  venue: Ghana Medical Journal
+- section: Under review
+  authors: "Darko, G., Anokye, G. A., **Alidu, A.-G.**, & Nuako, E."
+  title: "Health belief model constructs as predictors of modern contraceptive use among reproductive-aged women in Ghana: A facility-based cross-sectional study"
+  venue: Health Science Reports
+- section: Protocols and other works
+  authors: "**Alidu, A.-G.**, Abubakar, D., Silva, A. R., & Jiang, Y."
+  year: 2026
+  title: "Experiences and expressed needs of patients with cancer related to equitable access to and engagement with digital health: A scoping review protocol"
+  venue: OSF
+  links:
+    - label: DOI
+      url: "https://doi.org/10.17605/osf.io/mqyzp"
+- section: Protocols and other works
+  authors: "**Alidu, A.-G.**"
+  year: 2023
+  title: "Patient and family care study: A nursing process approach"
+  venue: Academia.edu
+  links:
+    - label: Read
+      url: "https://www.academia.edu/110121492/Patient_and_Family_Care_Study_A_Nursing_Process_Approach"

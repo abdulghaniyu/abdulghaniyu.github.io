@@ -1,0 +1,48 @@
+# Everything in the left sidebar comes from this file.
+# To hide a link, leave its url as "".
+name: Abdul-Ghaniyu Alidu
+credentials: BSN, RN
+title: PhD Student in Nursing
+affiliation: University of Michigan School of Nursing
+fellowship: Rackham Merit Fellow
+location: Ann Arbor, Michigan
+email: abdulg@umich.edu
+
+# Upload your photo as assets/img/profile.jpg, then change this line to /assets/img/profile.jpg
+photo: /assets/img/profile.svg
+
+# Upload your CV as assets/files/cv.pdf
+cv: /assets/files/cv.pdf
+
+links:
+  - label: ORCID
+    icon: fa-brands fa-orcid
+    url: "https://orcid.org/0009-0006-6832-8418"
+  - label: Google Scholar
+    icon: fa-brands fa-google-scholar
+    url: ""
+  - label: LinkedIn
+    icon: fa-brands fa-linkedin
+    url: "https://www.linkedin.com/in/alidu"
+  - label: GitHub
+    icon: fa-brands fa-github
+    url: ""
+  - label: OSF
+    icon: fa-solid fa-flask
+    url: ""
+  - label: BaoHope Foundation
+    icon: fa-solid fa-ribbon
+    url: ""
+
+interests:
+  - Digital health equity
+  - Cancer symptom management
+  - Nursing informatics
+  - Global health equity
+  - Participatory and mixed methods
+
+# Shown in the right sidebar under "Currently"
+currently:
+  - Writing up a feasibility study on onboarding patients with cancer to a self-tracking platform
+  - Running a scoping review on equitable digital health in cancer care
+  - Preparing a poster for AMIA 2026 in Dallas

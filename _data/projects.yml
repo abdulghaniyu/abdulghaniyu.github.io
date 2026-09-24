@@ -1,0 +1,48 @@
+# featured: true puts a project on the home page.
+# To add a link, add a line under links with a label and url.
+- title: Digital health equity framework
+  status: Under review
+  featured: true
+  summary: A concept analysis and an integrated framework that defines digital health equity and shows how practice, research and policy can act on it.
+  tags: [Concept analysis, Framework, Policy]
+  links: []
+- title: The digital divide in cancer
+  status: Published
+  featured: true
+  summary: National estimates of gaps in digital access and use among U.S. adults with and without cancer, and the factors linked to them.
+  tags: [Survey data, Cancer survivorship]
+  links:
+    - label: Read the paper
+      url: "https://doi.org/10.1007/s13187-026-02979-x"
+- title: Onboarding patients to a self-tracking platform
+  status: In preparation
+  featured: true
+  summary: Feasibility, usability and early engagement of a structured onboarding session for a medication and symptom self-tracking platform among patients with cancer.
+  tags: [Feasibility study, Symptom management, mHealth]
+  links: []
+- title: Rural-urban differences in digital health use
+  status: In preparation
+  featured: true
+  summary: How access to and use of digital health tools differ between rural and urban populations, and what that means for equity.
+  tags: [Secondary analysis, Rural health]
+  links: []
+- title: Scoping review on equitable digital health in cancer care
+  status: In progress
+  featured: false
+  summary: Mapping what patients with cancer report about their experiences and needs when accessing and using digital health.
+  tags: [Scoping review, Patient experience]
+  links:
+    - label: Protocol on OSF
+      url: "https://doi.org/10.17605/osf.io/mqyzp"
+- title: TABRIE-BRIGHT
+  status: Summer 2026
+  featured: false
+  summary: Co-design of an AI-enabled digital health platform to improve HIV care access and retention in Indonesia, with stakeholder and workflow analyses to guide rollout.
+  tags: [Global health, Co-design, AI]
+  links: []
+- title: BaoHope Foundation
+  status: Ongoing
+  featured: false
+  summary: A volunteer-run initiative I co-founded in Tamale, Ghana, to raise cancer awareness, expand screening and support survivors.
+  tags: [Community, Cancer screening]
+  links: []

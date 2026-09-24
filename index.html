@@ -1,0 +1,32 @@
+---
+layout: default
+title: About
+---
+<h1 class="page-title">About</h1>
+<p class="lede">I study who gets to use digital health tools in cancer care, who gets left out, and how nurses, researchers and policymakers can close the gap.</p>
+
+<div class="prose">
+  <p>I'm a PhD student at the University of Michigan School of Nursing and a Rackham Merit Fellow. My work sits between nursing informatics and global health equity. I use quantitative, qualitative and participatory methods to understand how patients with cancer access and engage with digital health.</p>
+  <p>Before Michigan, I trained and worked as a nurse in northern Ghana, and co-founded the BaoHope Foundation to support cancer awareness, screening and survivorship.</p>
+</div>
+
+<ul class="chips" aria-label="Research interests">
+  {% for i in site.data.profile.interests %}<li>{{ i }}</li>{% endfor %}
+</ul>
+
+<section class="block">
+  <h2>Selected projects</h2>
+  {% assign featured = site.data.projects | where_exp: "pr", "pr.featured == true" %}
+  <div class="cards">
+    {% for pr in featured %}{% include project-card.html project=pr %}{% endfor %}
+  </div>
+  <p class="more"><a href="{{ '/research/' | relative_url }}">All projects</a></p>
+</section>
+
+<section class="block">
+  <h2>Recent publications</h2>
+  <ol class="pubs">
+    {% for pub in site.data.publications limit: 3 %}{% include pub.html pub=pub %}{% endfor %}
+  </ol>
+  <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications and talks</a></p>
+</section>

@@ -1,0 +1,18 @@
+{% assign p = site.data.profile %}
+<aside class="profile" aria-label="Profile">
+  <div class="profile-inner">
+    <img class="avatar" src="{{ p.photo | relative_url }}" alt="Photo of {{ p.name }}" width="160" height="160">
+    <p class="name"><a href="{{ '/' | relative_url }}">{{ p.name }}</a></p>
+    <p class="creds">{{ p.credentials }}</p>
+    <p class="role">{{ p.title }}<br>{{ p.affiliation }}</p>
+    {% if p.fellowship %}<p class="fellow">{{ p.fellowship }}</p>{% endif %}
+    <ul class="contact">
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>{{ p.location }}</span></li>
+      <li><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:{{ p.email }}">{{ p.email }}</a></li>
+      {% for l in p.links %}{% if l.url and l.url != "" %}
+      <li><i class="{{ l.icon }}" aria-hidden="true"></i><a href="{{ l.url }}">{{ l.label }}</a></li>
+      {% endif %}{% endfor %}
+    </ul>
+    <a class="cv-button" href="{{ p.cv | relative_url }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Download CV</a>
+  </div>
+</aside>

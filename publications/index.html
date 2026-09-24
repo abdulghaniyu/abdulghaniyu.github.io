@@ -1,0 +1,34 @@
+---
+layout: default
+title: Publications
+---
+<h1 class="page-title">Publications</h1>
+<p class="lede">Articles, protocols and presentations. For an up-to-date list, see my <a href="{{ site.data.profile.links[0].url }}">ORCID record</a>.</p>
+
+{% assign sections = "Journal articles|Under review|Protocols and other works" | split: "|" %}
+{% for s in sections %}
+  {% assign items = site.data.publications | where: "section", s %}
+  {% if items.size > 0 %}
+  <section class="block">
+    <h2>{{ s }}</h2>
+    <ol class="pubs">
+      {% for pub in items %}{% include pub.html pub=pub %}{% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+{% endfor %}
+
+<section class="block">
+  <h2>Talks and posters</h2>
+  <ol class="pubs">
+    {% for t in site.data.talks %}
+    <li class="pub">
+      <span class="pub-authors">{{ t.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+      ({{ t.date }}).
+      <span class="pub-title">{{ t.title }}</span> [{{ t.type }}].
+      {{ t.event }}.
+      {% if t.upcoming %}<span class="pill pill-maize">Upcoming</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>

@@ -1,0 +1,12 @@
+{% assign pr = include.project %}
+<article class="card">
+  <p class="status">{{ pr.status }}</p>
+  <h3>{{ pr.title }}</h3>
+  <p>{{ pr.summary }}</p>
+  {% if pr.tags.size > 0 %}
+  <ul class="tags">{% for t in pr.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+  {% endif %}
+  {% if pr.links.size > 0 %}
+  <p class="card-links">{% for l in pr.links %}{% if l.url and l.url != "" %}<a href="{{ l.url }}">{{ l.label }}</a>{% endif %}{% endfor %}</p>
+  {% endif %}
+</article>

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign words = content | number_of_words %}
+{% assign minutes = words | divided_by: 200 | plus: 1 %}
+<article class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <span>{{ minutes }} min read</span>
+    </p>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.tags.size > 0 %}
+    <ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+    {% endif %}
+  </header>
+  <div class="post-body">
+    {{ content }}
+  </div>
+  <p class="back-link"><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
+</article>

@@ -1,0 +1,9 @@
+---
+layout: default
+title: Research
+---
+<h1 class="page-title">Research</h1>
+<p class="lede">Projects on digital health equity, cancer care and global health, from national survey analyses to community work in Ghana and Indonesia.</p>
+<div class="cards">
+  {% for pr in site.data.projects %}{% include project-card.html project=pr %}{% endfor %}
+</div>

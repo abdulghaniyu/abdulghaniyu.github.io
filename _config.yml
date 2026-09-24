@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------
+# Site settings. After you create your repository, change the url
+# line to https://YOUR-GITHUB-USERNAME.github.io
+# ---------------------------------------------------------------
+title: Abdul-Ghaniyu Alidu
+description: >-
+  PhD student at the University of Michigan School of Nursing studying
+  equitable digital health access and engagement for patients with cancer.
+url: "https://YOUR-GITHUB-USERNAME.github.io"
+baseurl: ""
+author: Abdul-Ghaniyu Alidu
+lang: en
+timezone: America/Detroit
+
+permalink: /blog/:year/:month/:title/
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: blog/feed.xml
+
+exclude:
+  - SETUP-GUIDE.md
+  - README.md
