@@ -26,3 +26,12 @@ feed:
 exclude:
   - SETUP-GUIDE.md
   - README.md
+
+image: /assets/img/profile.jpg
+
+social:
+  name: Abdul-Ghaniyu Alidu
+  links:
+    - https://orcid.org/0009-0006-6832-8418
+    - https://www.linkedin.com/in/alidu
+    - https://github.com/abdulghaniyu
