@@ -251,3 +251,8 @@ main { min-width: 0; max-width: 72ch; }
 .skill-group ul { list-style: none; margin: 0; padding: 0; }
 .skill-group li { display: flex; align-items: baseline; gap: .65rem; font-size: .94rem; line-height: 1.45; margin-bottom: .55rem; }
 .skill-group i { width: 1.15rem; text-align: center; color: var(--arb); flex: none; }
+
+/* About page: research interests list */
+.interests { margin-top: 1.75rem; }
+.interests ul { columns: 2 220px; column-gap: 2rem; }
+.interests li { break-inside: avoid; }
