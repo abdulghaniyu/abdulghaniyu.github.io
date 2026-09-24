@@ -8,9 +8,14 @@ title: About
   <p>Before Michigan, I trained and worked as a nurse in northern Ghana, and co-founded the BaoHope Foundation to support cancer awareness, screening and survivorship.</p>
 </div>
 
-<ul class="chips" aria-label="Research interests">
-  {% for i in site.data.profile.interests %}<li>{{ i }}</li>{% endfor %}
-</ul>
+<div class="skill-group interests">
+  <h3>Research interests</h3>
+  <ul>
+    {% for i in site.data.profile.interests %}
+    <li><i class="{{ i.icon }}" aria-hidden="true"></i>{{ i.name }}</li>
+    {% endfor %}
+  </ul>
+</div>
 
 <section class="block">
   <h2>Research and technical skills</h2>
