@@ -35,11 +35,16 @@ links:
     url: "https://www.linkedin.com/company/baohope"
 
 interests:
-  - Digital health equity
-  - Nursing informatics
-  - Global health equity
-  - Participatory and mixed methods
-  - Cancer symptom management
+  - name: Digital health equity
+    icon: fa-solid fa-scale-balanced
+  - name: Nursing informatics
+    icon: fa-solid fa-laptop-medical
+  - name: Global health equity
+    icon: fa-solid fa-earth-africa
+  - name: Participatory and mixed methods
+    icon: fa-solid fa-handshake
+  - name: Cancer symptom management
+    icon: fa-solid fa-notes-medical
 
 # Shown in the right sidebar under "Currently"
 currently:
