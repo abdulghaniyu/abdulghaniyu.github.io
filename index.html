@@ -15,12 +15,19 @@ title: About
 </ul>
 
 <section class="block">
-  <h2>Selected projects</h2>
-  {% assign featured = site.data.projects | where_exp: "pr", "pr.featured == true" %}
-  <div class="cards">
-    {% for pr in featured %}{% include project-card.html project=pr %}{% endfor %}
+  <h2>Research and technical skills</h2>
+  <div class="skills">
+    {% for g in site.data.skills %}
+    <div class="skill-group">
+      <h3>{{ g.group }}</h3>
+      <ul>
+        {% for s in g.items %}
+        <li><i class="{{ s.icon }}" aria-hidden="true"></i>{{ s.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
   </div>
-  <p class="more"><a href="{{ '/research/' | relative_url }}">All projects</a></p>
 </section>
 
 <section class="block">
