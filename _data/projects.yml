@@ -15,7 +15,7 @@
     - label: Read the paper
       url: "https://doi.org/10.1007/s13187-026-02979-x"
 - title: Onboarding patients to a self-tracking platform
-  status: In preparation
+  status:  Under review
   featured: true
   summary: Feasibility, usability and early engagement of a structured onboarding session for a medication and symptom self-tracking platform among patients with cancer.
   tags: [Feasibility study, Symptom management, mHealth]
@@ -27,7 +27,7 @@
   tags: [Secondary analysis, Rural health]
   links: []
 - title: Scoping review on equitable digital health in cancer care
-  status: In progress
+  status:  Under review
   featured: false
   summary: Mapping what patients with cancer report about their experiences and needs when accessing and using digital health.
   tags: [Scoping review, Patient experience]
