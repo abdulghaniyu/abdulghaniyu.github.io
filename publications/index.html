@@ -32,3 +32,18 @@ title: Publications
     {% endfor %}
   </ol>
 </section>
+
+<section class="block">
+  <h2>Ongoing Projects</h2>
+  <ol class="pubs projects">
+    {% for pr in site.data.projects %}
+    <li class="pub">
+      <span class="pub-title">{{ pr.title }}.</span>
+      {{ pr.summary }}
+      <span class="pill">{{ pr.status }}</span>
+      {% if pr.links.size > 0 %}<span class="pub-links">{% for l in pr.links %}{% if l.url and l.url != "" %}<a href="{{ l.url }}">{{ l.label }}</a>{% endif %}{% endfor %}</span>{% endif %}
+      {% if pr.tags.size > 0 %}<span class="proj-tags">{{ pr.tags | join: " / " }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
