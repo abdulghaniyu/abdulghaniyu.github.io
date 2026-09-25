@@ -23,6 +23,7 @@
 - title: Rural-urban differences in digital health use
   status: In preparation
   featured: true
+  ongoing: true
   summary: How access to and use of digital health tools differ between rural and urban populations, and what that means for equity.
   tags: [Secondary analysis, Rural health]
   links: []
@@ -37,12 +38,14 @@
 - title: TABRIE-BRIGHT
   status: Summer 2026
   featured: false
+  ongoing: true
   summary: Co-design of an AI-enabled digital health platform to improve HIV care access and retention in Indonesia, with stakeholder and workflow analyses to guide rollout.
   tags: [Global health, Co-design, AI]
   links: []
 - title: BaoHope Foundation
   status: Ongoing
   featured: false
+  ongoing: true
   summary: A volunteer-run initiative I co-founded in Tamale, Ghana, to raise cancer awareness, expand screening and support survivors.
   tags: [Community, Cancer screening]
   links: []
