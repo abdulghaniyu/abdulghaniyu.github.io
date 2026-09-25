@@ -36,7 +36,8 @@ title: Publications
 <section class="block">
   <h2>Ongoing Projects</h2>
   <ol class="pubs projects">
-    {% for pr in site.data.projects %}
+    {% assign ongoing = site.data.projects | where_exp: "pr", "pr.status != 'Published' and pr.status != 'Under review'" %}
+    {% for pr in ongoing %}
     <li class="pub">
       <span class="pub-title">{{ pr.title }}.</span>
       {{ pr.summary }}
